@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+</head>
+<style>
+    body {font:normal 1em arial, helvetica, sans-serif}
+    a{font-weight: bold;
+    text-decoration: none;
+    color: blue;}
+    
+    a:visited {color:darkred}
+
+    a:hover {text-decoration: underline;}
+
+    .especial:hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+    .especial::before{
+        content:'a';
+        font-weight: lighter;
+    }
+    .especial::after {
+        content: 'b';
+        font-weight: lighter;
+    }
+    
+</style>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>Para aprender HTML5 e CSS3, acesse  <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf" hreflang="pt-br" target="_blank">GitHub do Guanabara</a></p>
+    <p>Se quiser conhecer mais sobre os padrões, visite o site do <a href="https://www.w3schools.com/html/default.asp" hreflang="en" target="_blank">Escritório do W3C no Brasil</a></p>
+    <p>Para acompanhar os cursos acesso o <a class="especial" href="https://www.youtube.com/c/CursoemV%C3%ADdeo" hreflang="pt-br" target="_blank">canal do Curso em Vídeo</a></p>
+    
+    
+</body>
+</html>
