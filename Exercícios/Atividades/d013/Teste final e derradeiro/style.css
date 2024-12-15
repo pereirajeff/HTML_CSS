@@ -60,7 +60,7 @@ section{
 .imagem01 > p{
     color: white;   
     background-color: rgba(0, 0, 0, 0.432);
-    max-width: 900px;
+    width: 900px;
     padding: 10px;
     text-shadow: 9px 5px 6px black;
 }
@@ -76,7 +76,7 @@ section{
 .imagem02 > p{
     color: white;   
     background-color: rgba(0, 0, 0, 0.432);
-    max-width: 900px;
+    width: 900px;
     padding: 10px;
     text-shadow: 9px 5px 6px black;
 }
