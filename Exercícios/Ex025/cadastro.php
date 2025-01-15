@@ -1,0 +1,1 @@
+Você tem um cadastro meu amigo, meus parabéns a você. Agora por gentileza me mande um audio com os dezesseis números do cartão, sua data de validade e seu CVV. Obrigado!
