@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* Todas as demais midias */
+
+
+@media print {
+    body{
+        color: black;
+        
+    }
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    
+
+    #tablet{display: none;}
+    #PC{display: none;}
+    #TV{display: none;}
+    #phone{display: none;}
+    #print{display: block;}
+
+    body::after{
+        content: "feito por jeff solidão...";
+        font-weight: lighter;
+        font-style: italic;
+        font-size: small;
+    }
+
+    
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    #tablet{display: block;}
+    #PC{display: none;}
+    #TV{display: none;}
+    #phone{display: none;}
+    #print{display: none;}
+    
+    body{
+        background: url(../imagens/back-tablet.jpg) no-repeat center    
+         left;
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    #tablet{display: none;}
+    #PC{display: block;}
+    #TV{display: none;}
+    #phone{display: none;}
+    #print{display: none;}
+    
+    body{
+        background: url(../imagens/back-pc.jpg) no-repeat center    
+         left;
+        background-size: cover;
+    }
+    
+}
+
+
+@media screen and (min-width:1200px)  {
+    #tablet{display: none;}
+    #PC{display: none;}
+    #TV{display: block;}
+    #phone{display: none;}
+    #print{display: none;}
+    
+    body{
+        background: url(../imagens/back-tv.jpg) no-repeat center    
+         left;
+        background-size: cover;
+    }
+
+    
+}
