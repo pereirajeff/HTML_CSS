@@ -10,12 +10,13 @@
 
 header{
     background-color: darkgray;
-    text-align: center;
-    
+
+   
 }
 
 h1{
     padding: 10px;
+    text-align: center;
 }
 
 .material-symbols-outlined{
@@ -23,6 +24,7 @@ h1{
     background-color: rgba(128, 128, 128, 0.466);
     width: 95vw;
     padding: 10px;
+    text-align: center;
 }
 
 .material-symbols-outlined:hover{
@@ -36,6 +38,7 @@ h1{
 
 menu{
     display: none;
+    text-align: center;
 }
 
 
