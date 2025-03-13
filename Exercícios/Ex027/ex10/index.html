@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container</title>
+    <style>
+        .container{
+            background-color: blueviolet;    
+           
+            display: flex;
+            flex-flow: row nowrap;
+            
+            
+
+        }
+
+        .iten{
+            background-color: aquamarine;
+            text-align: center;
+            border: 1px solid black; 
+            flex-basis: 250PX;
+            
+              
+
+        }
+
+        #a{
+            flex-shrink: 1;
+            flex-grow: 1;     
+        }
+
+        #b{
+            flex-shrink: 1;
+            flex-grow: 4; 
+        }
+
+        #c{
+            flex-shrink:1;
+            flex-grow: 0;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="a" class="iten">A</div>
+        <div id="b" class="iten">B</div>
+        <div id="c" class="iten">C</div>
+        
+
+    </div>
+
+</body>
+</html>

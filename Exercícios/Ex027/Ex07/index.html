@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container</title>
+    <style>
+        .container{
+            background-color: blueviolet;    
+            height: 400px;
+            display: flex;
+            flex-flow: row nowrap;
+
+
+        }
+
+        .iten{
+            background-color: aquamarine;
+            text-align: center;
+            border: 1px solid black; 
+            padding: 20px;
+            
+
+        }
+
+        #G{
+            order: -4;
+        }
+
+        #F{
+            order: -3;
+        }
+
+        #E{
+            order: -2;
+        }
+
+        #D{
+            order: -1;
+        }
+
+        #C{
+            order: -5;
+        }
+
+        #B{
+            order: 1;
+        }
+
+        #A{
+            order: 2;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="A" class="iten">A</div>
+        <div id="B" class="iten">B</div>
+        <div id="C" class="iten">C</div>
+        <div id="D" class="iten">D</div>
+        <div id="E" class="iten">E</div>
+        <div id="F" class="iten">F</div>
+        <div id="G" class="iten">G</div>
+
+    </div>
+
+</body>
+</html>
